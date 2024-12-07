@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="hero">
+    <div class="container pb-5">
+      <nav class="navbar navbar-expand-lg mt-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="imgs/logo@2x.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Weather Forecast
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link  px-3 me-2 active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link px-3 me-2" href="#">News</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link px-3 me-2" href="#">Live Camera</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link px-3 me-2" href="#">Photos</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link px-3 me-2" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="searchDiv d-flex justify-content-center align-items-center">
+      <input type="search" id="search" class="w-100 rounded-5 bg-dark border border-0 p-3" name="search" placeholder="Find your location ...">
+      <input type="button" id="get-location" value="Your Location" class=" bg-info border border-0 py-3 px-5 rounded-5" >
+      </div>
+      <p class="d-block text-center" id="warning">please enter city ...</p>
+      <div class="row text-center mt-5">
+      </div>
+    </div>
+    <footer class="py-5">
+        <div class="row mb-3">
+            <div class="col-md-8 d-flex">
+                <input type="email" class=" w-100 rounded-5 border border-0 p-2 ps-3" name="email" placeholder="Enter your email">
+                <input type="button" value="Submit" class=" bg-info border border-0 rounded-5 px-5" >
+            </div>
+            <div class="col-md-4">
+                <ul class="list-unstyled d-flex ms-5">
+                <li class=" link rounded-circle"><a href="https://www.fb.com"><i class="fa-brands fa-facebook-f fs-5"></i></a></li>
+                <li class=" link rounded-circle"><a href="https://www.twitter.com"><i class="fa-brands fa-twitter fs-5"></i></a></li>
+                <li class=" link rounded-circle"><a href="https://www.gmail.com"><i class="fa-brands fa-google-plus-g fs-5"></i></a></li>
+                <li class=" link rounded-circle"><a href="https://www.pinterest.com"><i class="fa-brands fa-pinterest fs-5"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copy text-lead mb-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </footer>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
